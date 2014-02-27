@@ -1,1 +1,1 @@
-#http://ruby.learncodethehardway.org/book/ex11.html
+#http://ruby.learncodethehardway.org/book/ex13.html
