@@ -18,6 +18,7 @@ puts "I said #{x}."
 puts "I also said: #{y}."
 
 hilarious = false
+puts hilarious.class
 joke_evaluation = "Isn't that joke so funny? #{hilarious}"
 puts joke_evaluation
 
@@ -25,3 +26,5 @@ w = "This is the left side of . . . "
 e = "a string with a right side."
 
 puts w + e
+
+#lines witha  string inside of a string - 11, 14, 14, 17, 18
