@@ -1,7 +1,7 @@
 #http://ruby.learncodethehardway.org/book/ex7.html
 puts
 puts "Mary had a little lamb."
-puts "Its fleece was as white as %s." % snow
+puts "Its fleece was as white as %s." % "snow"
 puts "And everywhere that Mary went."
 puts ". "*10
 
