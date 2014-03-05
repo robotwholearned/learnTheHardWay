@@ -1,7 +1,8 @@
 #http://ruby.learncodethehardway.org/book/ex14.html
 
-user = ARGV.first
-prompt = '> '
+user, wevs = ARGV
+
+prompt = 'loser says what:  '
 
 puts "Hi #{user}, i'm the #{$0} script."
 puts "I'd like to ask you a few questions."
@@ -22,4 +23,7 @@ puts <<MESSAGE
 	Alright, so you said #{likes} about liking me. 
 	You live in #{lives}. Not sure where that is. 
 	And you have a #{comp} computer. Nice.
+	then you lied: #{wevs}
 MESSAGE
+
+# http://thcnet.net/zork/
