@@ -10,11 +10,11 @@ puts "Do you like me #{user}?"
 print prompt
 likes = STDIN.gets.chomp()
 
-print "Where do you live #{user}?"
+puts "Where do you live #{user}?"
 print prompt
 lives = STDIN.gets.chomp()
 
-print "What kind of computer do you have?"
+puts "What kind of computer do you have?"
 print prompt
 comp = STDIN.gets.chomp()
 
