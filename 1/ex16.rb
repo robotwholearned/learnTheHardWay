@@ -32,9 +32,7 @@ line3 = STDIN.gets
 
 puts "I'm going to write these to the file."
 
-target.write(line1)
-target.write(line2)
-target.write(line3)
+target.write(line1 + line2 + line3)
 
 puts "And finally, we close it."
 target.close()
